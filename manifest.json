@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "hello-chrome-extention",
+  "description": "Template Project for creating chrome extentions.",
+  "version": "1.0.0",
+  "icons": {
+    "128": "big.png"
+  },
+  "browser_action": {
+    "default_icon": "small.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
